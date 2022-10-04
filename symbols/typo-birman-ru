@@ -43,7 +43,7 @@ xkb_symbols "typo-birman-ru" {
     key <AC09> { [       Cyrillic_de,       Cyrillic_DE,  rightdoublequotemark,  rightsinglequotemark  ] }; // "l"
     key <AC10> { [      Cyrillic_zhe,      Cyrillic_ZHE,   leftsinglequotemark,        dead_diaeresis  ] }; // ";"
     key <AC11> { [        Cyrillic_e,        Cyrillic_E,  rightsinglequotemark,              NoSymbol  ] }; // "'"
-    key <LSGT> { [             slash,         backslash,              NoSymbol,              NoSymbol  ] }; // "\"
+    key <LSGT> { [         backslash,             slash,              NoSymbol,              NoSymbol  ] }; // "\"
 
     // 4th keyboard row
     key <BKSL> { [             slash,         backslash,              NoSymbol,              NoSymbol  ] };
@@ -56,7 +56,7 @@ xkb_symbols "typo-birman-ru" {
     key <AB07> { [ Cyrillic_softsign, Cyrillic_SOFTSIGN,                 U2212,    enfilledcircbullet  ] }; // "m" // U+2212 MINUS SIGN (−)
     key <AB08> { [       Cyrillic_be,       Cyrillic_BE,         guillemotleft,                  less  ] }; // "," // +S<
     key <AB09> { [       Cyrillic_yu,       Cyrillic_YU,        guillemotright,               greater  ] }; // "." // +S>
-    key <AB10> { [            period,             comma,              division,            dead_acute  ] }; // "/" // +÷
+    key <AB10> { [            period,             comma,              ellipsis,            dead_acute  ] }; // "/" // +…
 
     // 5th keyboard row
     key <SPCE> { [             space,             space,          nobreakspace,          nobreakspace  ] }; // " "

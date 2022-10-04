@@ -56,7 +56,7 @@ xkb_symbols "typo-birman-en" {
     key <AB07> { [                 m,                 M,                 U2212,    enfilledcircbullet  ] }; // "m" // U+2212 MINUS SIGN (−)
     key <AB08> { [             comma,         	   less,         guillemotleft,                  less  ] }; // "," // +S<
     key <AB09> { [            period,         	greater,        guillemotright,               greater  ] }; // "." // +S>
-    key <AB10> { [             slash,          question,              division,            dead_acute  ] }; // "/" // +÷
+    key <AB10> { [             slash,          question,              ellipsis,            dead_acute  ] }; // "/" // +…
 
     // 5th keyboard row
     key <SPCE> { [             space,             space,          nobreakspace,          nobreakspace  ] }; // " "
